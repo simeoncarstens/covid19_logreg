@@ -1,6 +1,9 @@
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import balanced_accuracy_score
+import matplotlib.pyplot as plt
+from collections import Counter
+import numpy as np
 
 
 def plot_data(dataset, ax):
