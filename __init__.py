@@ -86,7 +86,7 @@ input("Press Enter to continue...")
 # predict survival for arbitrary age
 def predict(age):
     survival_boolean = log_reg.predict(np.array([age]).reshape(-1, 1))[0]
-    print(f"Your person aged {age} will likely",
+    print(f"A person aged {age} will likely",
           "survive the infection" if survival_boolean  else "not survive the infection")
     
 predict(89)
